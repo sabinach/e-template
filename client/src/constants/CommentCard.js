@@ -1,0 +1,1 @@
+export const COMMENT_SETTINGS_ICON_SIZE = 25;

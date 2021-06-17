@@ -1,0 +1,33 @@
+.template-card {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+  height: 34rem !important;
+  width: 100%;
+}
+.template-card-blurb {
+  overflow: hidden;
+  height: 13.5rem !important;
+}
+.template-card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+}
+.template-card-owner {
+  background-color: #e6f6fc;
+}
+
+.template-card-draft {
+  background-color: whitesmoke;
+}
+
+.template-card-tag {
+  margin: 0 0.3rem 0.3rem 0;
+}
+.template-card-content {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.template-card-bookmark:hover {
+  cursor: pointer;
+}

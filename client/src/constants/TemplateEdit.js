@@ -1,0 +1,1 @@
+export const EDIT_CARD_SETTINGS_ICON_SIZE = 25;

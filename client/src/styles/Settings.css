@@ -1,0 +1,8 @@
+.settings-forgot-password {
+  color: black;
+}
+
+.settings-forgot-password:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.admin-ban-user:hover {
+  cursor: pointer;
+}
+
+.admin-table-2 th {
+  width: 50%;
+}
+
+tr.admin-table-3 th {
+  width: 33.3%;
+}
+
+tr.admin-table-4 th {
+  width: 25%;
+}

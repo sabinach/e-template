@@ -1,0 +1,14 @@
+.body-div {
+  border-width: thin;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 5px;
+  /* overflow: auto; */
+  resize: vertical;
+  padding: 10px;
+  font: "Arial";
+}
+
+.template-use-bookmark:hover {
+  cursor: pointer;
+}

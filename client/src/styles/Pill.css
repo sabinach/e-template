@@ -1,0 +1,28 @@
+.pill-item {
+  display: inline-block;
+  font-size: small;
+  border-radius: 30px;
+  height: 30px;
+  padding: 0 4px 0 1rem;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+.pill-item > .button {
+  background-color: white;
+  color: black;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

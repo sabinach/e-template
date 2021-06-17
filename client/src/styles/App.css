@@ -1,0 +1,91 @@
+.navbar-item {
+  color: black !important;
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.navbar-item:visited {
+  color: black !important;
+  text-decoration: none;
+}
+
+.navlink-label {
+  vertical-align: middle;
+}
+
+.medium {
+  font-size: medium;
+}
+
+/* .create-template-label {
+  visibility: visible;
+} */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.display-4 {
+  font-size: 2rem;
+}
+
+.create-template-label {
+  visibility: visible;
+}
+
+@media (min-width: 544px) {
+  .display-4 {
+    font-size: 3rem;
+  } /*1rem = 16px*/
+  .create-template-label {
+    visibility: visible;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  } /*1rem = 16px*/
+  .create-template-label {
+    visibility: visible;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .display-4 {
+    font-size: 3rem;
+  } /*1rem = 16px*/
+  .create-template-label {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 3rem;
+  } /*1rem = 16px*/
+  .create-template-label {
+    visibility: hidden;
+    display: none;
+  }
+}

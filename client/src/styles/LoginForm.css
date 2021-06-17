@@ -1,0 +1,10 @@
+.login-forgot-password {
+  padding: 0;
+  padding-top: 3px;
+  margin: 0;
+}
+
+.login-forgot-password:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
